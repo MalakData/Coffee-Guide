@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coffee Guide Alkarj</title>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script defer src="js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+						$(window).load(function(){
+						  $('.flexslider').flexslider({
+							animation: "slide",
+							start: function(slider){
+							  $('body').removeClass('loading');
+							}
+						  });
+						});
+					  </script>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+</head>
+	
+<body>
+    <!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><i class="glyphicon " aria-hidden="true" style="font-family: French Script MT; font-size: 30px;"></i> &#x2618; Coffee Guide "ALkarj" &#x2618;</a>
+			</div>
+		</div>
+	</div>
+<!-- header-nav -->
+	<div class="header-nav">
+		<div class="container">
+			<div class="header-nav-bottom">
+				<nav class="navbar navbar-default">
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html" class="hvr-bounce-to-bottom">Home</a></li>
+							<li><a href="about.html" class="hvr-bounce-to-bottom">About</a></li>
+							<li><a href="CoffeeStors.html" class="hvr-bounce-to-bottom">Coffees Menu</a></li>
+							<li><a href="login.php" class="hvr-bounce-to-bottom">Login</a></li>
+							<li><a href="contact.php" class="hvr-bounce-to-bottom">Contact Us</a></li>
+						</ul>
+					</div></nav></div></div></div>
+					<!-- script-for sticky-nav -->
+						<script>
+						$(document).ready(function() {
+							 var navoffeset=$(".header-nav").offset().top;
+							 $(window).scroll(function(){
+								var scrollpos=$(window).scrollTop(); 
+								if(scrollpos >=navoffeset){
+									$(".header-nav").addClass("fixed");
+								}else{
+									$(".header-nav").removeClass("fixed");
+								}
+							 });
+							 
+						});
+						</script>
+<!-- //header-nav -->
+<!-- about -->
+	<div class="about">
+		<div class="container">
+			<div class="about-grids-bottom">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides" >
+							<li>
+                                <span style="color: black; font-size: 35px;">&#x2724;About US&#x2724;</span>
+                                <br><br>
+								Welcome To Coffee Guide
+			         When you visit our website, its tell you <br>the story of some coffes store include<br>the menu , location , tasty dishes in there.
+							</li>
+							<li>
+                                <br>
+								We offer you the top five coffee shops in <br>Al Kharj area where many men and women go.
+							</li>
+
+						</ul>
+					</div></section></div></div>
+                     <br><br><br><br><br>
+	  </div>
+
+<!-- footer -->
+<div class="footer">
+		<div class="container">
+			
+				<div class="clearfix"> </div>
+			<div class="footer-copy">
+				<p>© 2018 Coffee Guide ALkarj | All rights reserved </p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+		<script src="js/bootstrap.js"> </script>
+</body>
+</html>

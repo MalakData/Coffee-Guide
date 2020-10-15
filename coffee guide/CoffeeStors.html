@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coffee Guide Alkarj</title>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script defer src="js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+						$(window).load(function(){
+						  $('.flexslider').flexslider({
+							animation: "slide",
+							start: function(slider){
+							  $('body').removeClass('loading');
+							}
+						  });
+						});
+					  </script>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+</head>
+	
+<body>
+<!-- header-nav -->
+	<div class="header-nav">
+		<div class="container">
+			<div class="header-nav-bottom">
+				<nav class="navbar navbar-default">
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html" class="hvr-bounce-to-bottom">Home</a></li>
+							<li><a href="about.html" class="hvr-bounce-to-bottom">About</a></li>
+							<li><a href="CoffeeStors.html" class="hvr-bounce-to-bottom">Coffees Menu</a></li>
+							<li><a href="login.php" class="hvr-bounce-to-bottom">Login</a></li>
+							<li><a href="contact.php" class="hvr-bounce-to-bottom">Contact Us</a></li>
+						</ul>
+					</div></nav></div></div></div>
+					<!-- script-for sticky-nav -->
+						<script>
+						$(document).ready(function() {
+							 var navoffeset=$(".header-nav").offset().top;
+							 $(window).scroll(function(){
+								var scrollpos=$(window).scrollTop(); 
+								if(scrollpos >=navoffeset){
+									$(".header-nav").addClass("fixed");
+								}else{
+									$(".header-nav").removeClass("fixed");
+								}
+							 });
+							 
+						});
+						</script>
+<!-- //header-nav -->
+	<div class="about">
+        <br><br><br><br><br><br><br><br>
+		<div class="container">
+			<div class="about-grids">
+				<div class="col-md-4 about-grid">
+					<div class="about-grid1">
+						<figure class="thumb">
+							<img src="images/s1.png" alt=" " class="img-responsive" />
+							<figcaption class="caption">
+								<h3><a href="starbucks.html"  target="_blank">Starbucks</a></h3>
+								<span>Menu</span>
+								<ul>
+									<li><a href="#" class="f1"></a></li>
+									<li><a href="#" class="f3"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<div class="col-md-4 about-grid">
+					<div class="about-grid1">
+						<figure class="thumb">
+							<img src="images/dip3.jpg" alt=" " class="img-responsive" />
+							<figcaption class="caption">
+								<h3><a href="dipndip.html" target="_blank">dip n dip</a></h3>
+								<span>Menu</span>
+                                <ul>
+									<li><a href="#" class="f1"></a></li>
+									<li><a href="#" class="f3"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<div class="col-md-4 about-grid">
+					<div class="about-grid1">
+						<figure class="thumb">
+							<img src="images/dr1.jpg" alt=" " class="img-responsive" />
+							<figcaption class="caption">
+								<h3><a href="drcafe.html"  target="_blank">Dr.cafe</a></h3>
+								<span>Menu</span>
+								<ul>
+									<li><a href="#" class="f1"></a></li>
+									<li><a href="#" class="f3"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+                <div class="col-md-4 about-grid" style="margin-left: 150px;">
+                    <br><br>
+					<div class="about-grid1">
+						<figure class="thumb">
+							<img src="images/dar1.png" alt=" " class="img-responsive" />
+							<figcaption class="caption">
+								<h3><a href="darbadria.html"  target="_blank">Dar Badria</a></h3>
+								<span>Menu</span>
+								<ul>
+									<li><a href="#" class="f1"></a></li>
+									<li><a href="#" class="f3"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+                
+                <div class="col-md-4 about-grid" >
+                    <br><br>
+					<div class="about-grid1">
+						<figure class="thumb">
+							<img src="images/black.png" alt=" " class="img-responsive" />
+							<figcaption class="caption">
+								<h3><a href="blacksugar.html"  target="_blank">Black Sugar</a></h3>
+								<span>Menu</span>
+								<ul>
+									<li><a href="#" class="f1"></a></li>
+									<li><a href="#" class="f3"></a></li>
+								</ul>
+							</figcaption></figure>
+					</div></div><div class="clearfix"> </div>
+            </div></div>
+        <br><br><br></div>
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			
+				<div class="clearfix"> </div>
+			<div class="footer-copy">
+				<p>© 2018 Coffee Guide ALkarj | All rights reserved </p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+		<script src="js/bootstrap.js"> </script>
+</body>
+</html>
